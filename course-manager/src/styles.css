@@ -1,0 +1,4 @@
+/*importação global pois os modulos se encontra na pasta node_modules*/
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@import '~font-awesome/css/font-awesome.min.css';

@@ -1,0 +1,66 @@
+-----------------------------------------------------------------------------------------------------------------------------
+--------------------estrutura de pastas--------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+----package.js--Configurações
+Todas as dependencias (pacotes)
+Config de Dev
+Scripts - config
+
+----angular.json--Configurações
+Infos globais
+Arquivo de inicialização
+Assets - parte estática (img, etc, inerente)
+Styles - CSS
+Scripts
+Main - bootstrap
+index - página da app (Single Page Aplication - SPA) - tudo aponta pra ca
+
+
+----node_modules--Armazenamento
+Armazenamento de todas as dependencias (packages)
+
+----src--Armazenamento
+Desenvolvimento
+index
+main - módulo raiz - appModule - initialization
+style - css
+
+----assets--Armazenamento
+Armazena arquivos de configuração do angular.json
+
+----app--Armazenamento
+app.module - leitura do componente pai - responsavel por envelopar tudo - lido e carregado dentro do index.html(unico html raiz) -app-root
+app.component - componente pai
+
+-----------------------------------------------------------------------------------------------------------------------------
+--------------------modulos e componentes------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+----Modulos
+Bolsa
+Limitador de contexto
+Comparável com comodos da casa
+Componentes visuais - Estrutura, aparencia, vida
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+--------------------dependencias e pacotes de instalação---------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
+
+----Utiliza o npm
+bootstrap
+font-awesome
+
+
+
+
+
+
+
+
+
+
+
+
+

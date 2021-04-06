@@ -1,0 +1,21 @@
+<!-- Angular alem de HTML usa interpolação dando mais recursos ao HTML
+{{ title }}
+
+<br/>
+
+{{ name }}
+
+<br/>
+-->
+
+<!--
+Colchetes significam que ele vai apenas exibir, mas não alterará ou atualizar o valor da propriedade one way data bind
+<input [ngModel] = 'name' name="name" >
+<br/>
+Parenteses e colchetes é considerado two way data bind mostra e altera a info
+<input ([ngModel]) = 'name' name="name" >
+-->
+<app-nav-bar></app-nav-bar>
+<div class="container mt-4">
+    <router-outlet></router-outlet>
+</div>
